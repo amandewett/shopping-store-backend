@@ -7,6 +7,10 @@
 
   <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
 
+## Requirements
+Node v16.20.0
+NPM v8.19.4
+
 ## Installation
 
 ```bash
