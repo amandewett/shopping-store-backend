@@ -52,7 +52,7 @@ async function bootstrap() {
     console.log(err.message, err);
   });
 
-  app.listen(process.env.PORT, function () {
+  await app.listen(process.env.PORT, function () {
     console.log(`${process.env.APP_NAME} server started with ${process.env.ENV} environment at ${process.env.PORT} port`);
   });
 }
