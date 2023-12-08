@@ -37,3 +37,4 @@ lerna-debug.log*
 .env
 public/*
 .requestRemoteAddress.log
+package-lock.json
